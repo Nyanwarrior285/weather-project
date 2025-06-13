@@ -3,16 +3,30 @@
     <head>
         <meta charset="UTF-8" />
         <title>Random Location's Weather</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div id="container">
             <div id="location">
-
+                <div id="longitude"></div>
+                <div id="latitude"></div>
             </div>
             <div id="weather">
-
+                <div id="temp"></div>
+                <div id="humidity"></div>
+                <div id="windSpeed"></div>
             </div>
+            <iframe
+                width="600"
+                height="450"
+                style="border:0"
+                allowfullscreen
+                src=""
+                id = "map">
+            </iframe>  
         </div>
+
+        
         <script src="index.js"></script>
     </body>
 </html>
